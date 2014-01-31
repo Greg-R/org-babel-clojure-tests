@@ -1,14 +1,9 @@
 # clojure-org-table-tests
 
-A Clojure library designed to ... well, that part is up to you.
+This is a test of Clojure source code blocks in emacs org-mode.
+The primary file is the PDF file.  The code blocks were wrapped in 
+#+begin_example/#+end_example so that the exports would show the actual
+entries into the org file.
 
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+The file demonstrates numerous permutations of the :results header options.
+Both Clojure and Python code blocks were included for comparison.
